@@ -1,30 +1,34 @@
 export const CATEGORIES = [
   {
-    name: 'Apple',
-    slug: 'apple'
+    name: 'Technology',
+    slug: 'technology'
   },
   {
-    name: 'PlayStation',
-    slug: 'playstation'
-  },
-  {
-    name: 'Microsoft',
-    slug: 'microsoft'
-  },
-  {
-    name: 'Google',
-    slug: 'google'
-  },
-  {
-    name: 'Netflix',
-    slug: 'netflix'
+    name: 'Programming',
+    slug: 'programming'
   },
   {
     name: 'Gaming',
     slug: 'gaming'
   },
   {
-    name: 'Nintendo',
-    slug: 'nintendo'
+    name: 'Movie',
+    slug: 'movie'
   },
+  {
+    name: 'Sport',
+    slug: 'sport'
+  },
+  {
+    name: 'Euro',
+    slug: 'euro'
+  },
+  {
+    name: 'Travel',
+    slug: 'travel'
+  },
+  {
+    name: 'Science',
+    slug: 'science'
+  }
 ];
