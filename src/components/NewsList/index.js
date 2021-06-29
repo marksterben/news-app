@@ -8,8 +8,6 @@ const NewsList = ({ articles }) => {
     <div className={styles.newsList}>
       {articles.map((article, index, arr) => {
         if (!article.urlToImage || !article.author || !article.content) {
-          // If urlToImage, content, and/or author from API response is null
-          // return nothing (not rendering React component)
           return null
         }
 

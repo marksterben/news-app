@@ -30,7 +30,7 @@ const App = () => {
 
       setLoading(false);
       setArticles(res.articles);
-    }
+    };
 
     fetchNews();
   }, [keyword]);
